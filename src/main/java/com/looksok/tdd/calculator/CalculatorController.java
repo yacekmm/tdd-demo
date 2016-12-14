@@ -1,5 +1,6 @@
 package com.looksok.tdd.calculator;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,9 +12,6 @@ public class CalculatorController {
 
     @RequestMapping(value = "/api/greeting", method = GET)
     public ResponseEntity calculate(){
-        System.out.println("calculating");
-        return ResponseEntity
-                .ok()
-                .build();
+        return new ResponseEntity("Hello", HttpStatus.OK);
     }
 }
