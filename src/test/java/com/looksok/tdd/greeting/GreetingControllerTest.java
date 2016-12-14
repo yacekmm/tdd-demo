@@ -30,7 +30,7 @@ public class GreetingControllerTest {
     }
 
     @Test
-    public void respondsWith200OK() throws Exception {
+    public void respondsWith200OK_andGreets() throws Exception {
         given()
             .when()
                 .get("/api/greeting")
