@@ -1,4 +1,4 @@
-package com.orange.tdd.calculator;
+package com.looksok.tdd.calculator;
 
 import org.junit.Test;
 

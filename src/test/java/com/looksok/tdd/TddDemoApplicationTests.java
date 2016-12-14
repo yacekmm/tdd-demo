@@ -1,4 +1,4 @@
-package com.orange.tdd;
+package com.looksok.tdd;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

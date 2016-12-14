@@ -1,4 +1,4 @@
-package com.orange.tdd.calculator;
+package com.looksok.tdd.calculator;
 
 public class Calculator {
     public int add(int a, int b) {
