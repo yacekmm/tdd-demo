@@ -16,8 +16,8 @@ public class GreetingController {
         this.reporter = reporter;
     }
 
-    @RequestMapping(value = "/api/greeting")
-    public ResponseEntity greetUser(){
+    @RequestMapping("/api/greeting")
+    public ResponseEntity greet(){
         reporter.reportGreeting();
         return ResponseEntity.ok("Hello");
     }
